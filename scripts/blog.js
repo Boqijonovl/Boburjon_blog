@@ -7,7 +7,7 @@ window.onload = () => {
 function load() {
   fetch("https://json-87ik.onrender.com/blogs")
     .then((response) => response.json())
-    .then((data) => render(data));
+    .then((data) => render(data)); 
 }
 
 function render(blogs) {

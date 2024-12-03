@@ -100,14 +100,14 @@ async function makePage(blog, blogs) {
 
   if (previewBlog)
     previewBlogLink.href =
-      "http://127.0.0.1:5501/pages/blogDetail.html?id=" + previewBlog.id;
+      "https://boburjon-blog.vercel.app/pages/blogDetail.html?id=" + previewBlog.id;
   else previewBlogLink.innerText = "";
 
   const upcomingBlog = findUpcomingBlog(blog, blogs);
 
   if (upcomingBlog)
     upcomingBlogLink.href =
-      "http://127.0.0.1:5501/pages/blogDetail.html?id=" + upcomingBlog.id;
+      "https://boburjon-blog.vercel.app/pages/blogDetail.html?id=" + upcomingBlog.id;
   else upcomingBlogLink.innerText = "";
 }
 
