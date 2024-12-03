@@ -5,7 +5,7 @@ window.onload = () => {
 };
 
 function load() {
-  fetch("http://localhost:3000/blogs")
+  fetch("https://json-87ik.onrender.com/blogs")
     .then((response) => response.json())
     .then((data) => render(data));
 }
